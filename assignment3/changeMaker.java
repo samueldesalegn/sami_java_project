@@ -11,10 +11,10 @@ public class changeMaker {
         int nickles = 0;
         int pennies = 0;
 
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter the amount you want to change");
-        amount = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Enter the amount you want to change");
+            amount = input.nextInt();
+        }
 
         int originalAmount = amount;
         
@@ -27,17 +27,11 @@ public class changeMaker {
         amount = amount % 5;
         pennies = amount;
 
-
         System.out.println("The amount of " + originalAmount + " can be broken into: ");
         System.out.println("Quarters: " + quarters);
         System.out.println("Dimes: " + dimes);
         System.out.println("Nickles: " + nickles);
-        System.out.println("Pennies: " + pennies);
-
-
-
-
-        
+        System.out.println("Pennies: " + pennies);    
     }
 }
 
