@@ -3,34 +3,36 @@ package assignment67;
 import java.util.Scanner;
 
 public class gradeWithSwitch {  
-	public static void main(String[] args) {
+	public static void main(String[] args, Object Sysetm) {
 
-		char grade = 'B';
-		
+		char letter = 0;
+		double gradeValue;
 
-		// try (Scanner keyBoard = new Scanner(System.in)) {
-		//   System.out.println("Enter  your grade: ");
-	  //   grade = keyBoard.next();
-			
-		switch (grade) {
+		try (Scanner keyBoard = new Scanner(System.in)) {
+		  System.out.println("Enter  your gradeValue: ");
+	    letter = keyBoard.next().charAt(0);
+		}  			
+		switch (letter) {
 			case 'A':
-				System.out.println("Your grade value is 4.0" );
+				gradeValue = 4.0;
 				break;
 			case 'B':
-				System.out.println("Your grade value is 3.0");
+			gradeValue = 3.0;
 				break;
 			case 'C':
-				System.out.println("Your grade value is 2.0");
+			gradeValue = 2.0;
 				break;
 			case 'D':
-				System.out.println("Your grade value is 1.0");
+			gradeValue = 1.0;
 				break;
 			case 'F':
-				System.out.println("Your grade value is 0.0");
+			gradeValue = 0.0;
 
 			default:
-				System.out.println("Try Again with another input");		
-			
-    }    
+			  gradeValue = 0.0;
+				System.out.println("Try again letter");		
+		
+		}  
+		System.out.println("The grade value is " + gradeValue); 
   }
 }
