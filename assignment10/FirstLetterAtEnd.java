@@ -1,3 +1,12 @@
+// 3. (Optional) For all of the following words, if you move the first letter to the 
+// end of the word, and then spell the result backwards, you will get the 
+// original word:
+// banana dresser grammar potato revive uneven assess
+// Write a program that reads a word and determines whether it has this 
+// property. Continue reading and testing words until you encounter the word 
+// quit. Treat uppercase letters as lowercase letters.
+
+
 package assignment10;
 
 import java.util.Scanner;
