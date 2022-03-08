@@ -1,3 +1,26 @@
+// 1. Write a program that will compute statistics for eight coin tosses. The 
+// user will enter either an h for heads or a t for tails for the eight tosses. The 
+// program will then display the total number and percentages of heads and 
+// tails. Use the increment operator to count each h and t that is entered. 
+// For example, a possible sample dialogue between the program and the 
+// user might be
+// For each coin toss enter either h for heads or t for tails.
+// First toss: h
+// Second toss: t
+// Third toss: t
+// Fourth toss: h
+// Fifth toss: t
+// Sixth toss: h
+// Seventh toss: t
+// Eighth toss: t
+// Number of heads: 3
+// Number of tails: 5
+// Percent heads: 37.5
+// Percent tails: 62.5
+
+// Solution/Code below:
+
+
 package assignment10;
 import java.util.Scanner;
 
