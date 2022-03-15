@@ -1,3 +1,12 @@
+/* 
+Q1. Write a program in a class NumberAboveAverage that counts the 
+number of days that the temperature is above average. Read ten 
+temperatures from the keyboard and place them in an array. Compute 
+the average temperature and then count and display the number of days 
+on which the temperature was above average
+
+*/
+
 package arrays101;
 
 import java.util.Scanner;
