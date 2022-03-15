@@ -1,3 +1,15 @@
+/*
+ Write a program in a class CountFamiles that counts the number of 
+families whose income is below a certain value. Read an integer k from 
+the keyboard and then create an array of double values of size k. Read k 
+values representing family income from the keyboard and place them 
+into the array. Find the maximum income among these values. Then 
+count the families that make less than 10 percent of this maximum 
+income. Display this count and the incomes of these families.
+
+*/
+
+
 package arrays101;
 
 import java.util.Scanner;
